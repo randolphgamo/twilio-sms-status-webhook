@@ -24,3 +24,10 @@ Example statuses include:
 - delivered
 - undelivered
 - failed
+## Testing with webhook.site
+
+If you want to quickly inspect the webhook payload without deploying this script, you can use
+
+1. Go to https://webhook.site
+2. Copy the unique URL generated for you.
+3. Use that URL as the `statusCallback` when sending an SMS with Twilio.
